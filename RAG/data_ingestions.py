@@ -50,8 +50,8 @@ def get_data_from_pdf():
 
 
 
-if __name__ == "__main__":
-    # x = get_text_loader()
-    # x = get_data_from_webbase()
-    x = get_data_from_pdf()
-    print(x)
+# if __name__ == "__main__":
+#     # x = get_text_loader()
+#     # x = get_data_from_webbase()
+#     x = get_data_from_pdf()
+#     print(x)
