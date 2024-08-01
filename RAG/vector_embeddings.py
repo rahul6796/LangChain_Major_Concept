@@ -23,8 +23,6 @@ class VectorDataBase:
             print(f'error coming from load embedding :: {ex}')
 
 
-
-
 def create_vector_using_chromadb(type_doc):
 
     try:
@@ -46,7 +44,7 @@ def create_vector_using_faiss(type_doc):
     except Exception as ex:
         print(f'error is coming from given create vector using faiss :: {ex}')
 
-if __name__ == "__main__":
-    # x = create_vector_using_chromadb(type_doc='pdf')
-    x = create_vector_using_faiss(type_doc='pdf')
-    print(x)
+# if __name__ == "__main__":
+#     # x = create_vector_using_chromadb(type_doc='pdf')
+#     x = create_vector_using_faiss(type_doc='pdf')
+#     print(x)
