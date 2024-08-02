@@ -8,3 +8,5 @@ uvicorn
 bs4
 pypdf
 faiss-cpu
+langchain-openais
+langchainhub
